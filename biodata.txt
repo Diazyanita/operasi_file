@@ -1,0 +1,12 @@
+Nama: diaz
+Umur: 18
+Alamat: jl.kapiswuida
+Nama: ratna
+Umur: 20
+Alamat: jl.cemokoro
+Nama: agatha
+Umur: 18
+Alamat: blimbing
+Nama: selvi
+Umur: 18
+Alamat: malang
