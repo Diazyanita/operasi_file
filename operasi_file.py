@@ -1,27 +1,20 @@
 print ("Selamat datang di Program Biodata")
 print ("=================================")
 
-# buka file untuk dibaca dan ditulis
-baca_bio = open("biodata.txt", "r")
-teks = baca_bio.read()
+def baca_file(namafile):
+    file = open("biodata.txt", "r")
+    print(file.read())
+    file.close()
 
-# cetak isi file
-print (teks)
+baca_file("biodata.txt")
 
-# Ambil input dari user
-nama = input("Nama: ")
-umur = input("Umur: ")
-alamat = input("Alamat: ")
+def tulis_file(nama_file):
+    nama = input("Nama: ")
+    umur = input("Umur: ")
+    alamat = input("Alamat: ")
+    teks = "\nNama: {}\nUmur: {}\nAlamat: {}\n".format(nama, umur, alamat)
+    biodata = open(nama_file, "a")
+    print(biodata.write(teks))
+    biodata.close()
 
-# format teks
-teks = "\nNama: {}\nUmur: {}\nAlamat: {}\n".format(nama, umur, alamat)
-
-# buka file untuk ditulis
-file_bio = open("biodata.txt", "a")
-
-# tulis teks ke file
-file_bio.write(teks)
-
-# tutup file
-file_bio.close()
-baca_bio.close()
+tulis_file("biodata.txt")

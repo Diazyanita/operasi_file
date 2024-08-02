@@ -10,3 +10,10 @@ Alamat: blimbing
 Nama: selvi
 Umur: 18
 Alamat: malang
+
+Nama: liizz
+Umur: 28
+Alamat: jl.munad
+Nama: kisa
+Umur: 22
+Alamat: jl.bendungan
